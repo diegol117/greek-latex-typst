@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://diegol117.github.io/greek-latex-typst/sitemap.xml

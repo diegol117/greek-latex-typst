@@ -1,0 +1,1078 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ============ SEO ============ -->
+  <title>Greek Alphabet — Symbols, LaTeX &amp; Typst Commands &amp; Names (EN/ES)</title>
+  <meta name="description" content="Complete Greek alphabet reference: all 24 letters with their symbol, plus LaTeX and Typst commands and names in English and Spanish. Copy any command with one click. Alfabeto griego con comandos LaTeX y Typst." />
+  <meta name="keywords" content="greek alphabet, greek letters, latex commands, typst commands, latex greek symbols, typst greek symbols, alpha beta gamma, varepsilon, varphi, vartheta, alfabeto griego, letras griegas, comandos latex, comandos typst" />
+  <meta name="author" content="Tu Nombre" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#070a12" />
+
+  <!-- ⚠️ CAMBIA ESTA URL por la de tu repositorio en GitHub Pages -->
+  <link rel="canonical" href="https://diegol117.github.io/greek-latex-typst/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Greek Alphabet" />
+  <meta property="og:title" content="Greek Alphabet — Symbols, LaTeX &amp; Typst Commands" />
+  <meta property="og:description" content="All 24 Greek letters with their symbol, LaTeX/Typst command and name in English and Spanish. One click to copy." />
+  <meta property="og:url" content="https://diegol117.github.io/greek-latex-typst/" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:locale:alternate" content="es_ES" />
+  <!-- <meta property="og:image" content="https://diegol117.github.io/greek-latex-typst/preview.png" /> -->
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Greek Alphabet — Symbols, LaTeX &amp; Typst Commands" />
+  <meta name="twitter:description" content="All 24 Greek letters with their symbol, LaTeX/Typst command and name in English and Spanish." />
+
+  <!-- Favicon (Ω en SVG inline) -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%230b1020'/%3E%3Ctext x='50' y='50' dy='.35em' text-anchor='middle' font-size='62' fill='%23b3c0ff' font-family='Georgia,serif'%3E%CE%A9%3C/text%3E%3C/svg%3E" />
+
+  <!-- Tipografías: Inter (UI) + JetBrains Mono (comandos) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- JSON-LD: datos estructurados para buscadores -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTermSet",
+    "name": "Greek Alphabet",
+    "alternateName": "Alfabeto Griego",
+    "description": "The 24 letters of the Greek alphabet with their symbols, LaTeX/Typst commands and names in English and Spanish.",
+    "url": "https://diegol117.github.io/greek-latex-typst/",
+    "hasDefinedTerm": [
+      { "@type": "DefinedTerm", "name": "Alpha",   "termCode": "\\alpha" },
+      { "@type": "DefinedTerm", "name": "Beta",    "termCode": "\\beta" },
+      { "@type": "DefinedTerm", "name": "Gamma",   "termCode": "\\gamma" },
+      { "@type": "DefinedTerm", "name": "Delta",   "termCode": "\\delta" },
+      { "@type": "DefinedTerm", "name": "Epsilon", "termCode": "\\epsilon" },
+      { "@type": "DefinedTerm", "name": "Zeta",    "termCode": "\\zeta" },
+      { "@type": "DefinedTerm", "name": "Eta",     "termCode": "\\eta" },
+      { "@type": "DefinedTerm", "name": "Theta",   "termCode": "\\theta" },
+      { "@type": "DefinedTerm", "name": "Iota",    "termCode": "\\iota" },
+      { "@type": "DefinedTerm", "name": "Kappa",   "termCode": "\\kappa" },
+      { "@type": "DefinedTerm", "name": "Lambda",  "termCode": "\\lambda" },
+      { "@type": "DefinedTerm", "name": "Mu",      "termCode": "\\mu" },
+      { "@type": "DefinedTerm", "name": "Nu",      "termCode": "\\nu" },
+      { "@type": "DefinedTerm", "name": "Xi",      "termCode": "\\xi" },
+      { "@type": "DefinedTerm", "name": "Omicron", "termCode": "o" },
+      { "@type": "DefinedTerm", "name": "Pi",      "termCode": "\\pi" },
+      { "@type": "DefinedTerm", "name": "Rho",     "termCode": "\\rho" },
+      { "@type": "DefinedTerm", "name": "Sigma",   "termCode": "\\sigma" },
+      { "@type": "DefinedTerm", "name": "Tau",     "termCode": "\\tau" },
+      { "@type": "DefinedTerm", "name": "Upsilon", "termCode": "\\upsilon" },
+      { "@type": "DefinedTerm", "name": "Phi",     "termCode": "\\phi" },
+      { "@type": "DefinedTerm", "name": "Chi",     "termCode": "\\chi" },
+      { "@type": "DefinedTerm", "name": "Psi",     "termCode": "\\psi" },
+      { "@type": "DefinedTerm", "name": "Omega",   "termCode": "\\omega" }
+    ]
+  }
+  </script>
+
+  <style>
+    /* ============ BASE ============ */
+    *, *::before, *::after { box-sizing: border-box; }
+
+    :root {
+      --bg: #070a12;
+      --panel: rgba(255, 255, 255, 0.05);
+      --border: rgba(255, 255, 255, 0.10);
+      --text: #f2f5fc;
+      --muted: #a3aec6;
+      --accent: #9aabff;
+      --accent-2: #5fd7ea;
+      --ok: #4ade80;
+      --radius: 18px;
+      --maxw: 1200px;
+      --mono: "JetBrains Mono", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+    }
+
+    html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+
+    body {
+      margin: 0;
+      min-height: 100dvh;
+      font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--text);
+      background-color: var(--bg);
+      background-image:
+        radial-gradient(900px 520px at 12% -8%, rgba(124, 140, 255, 0.22), transparent 62%),
+        radial-gradient(820px 460px at 92% -4%, rgba(34, 211, 238, 0.14), transparent 58%),
+        radial-gradient(700px 700px at 50% 120%, rgba(139, 92, 246, 0.10), transparent 60%);
+      background-attachment: fixed;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
+    .wrap { width: 100%; max-width: var(--maxw); margin: 0 auto; padding: 0 20px; }
+
+    /* ============ HEADER ============ */
+    .site-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      flex-wrap: wrap;
+      padding: 46px 0 30px;
+    }
+
+    .brand { display: flex; align-items: center; gap: 18px; }
+
+    .brand-mark {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 2.15rem;
+      line-height: 1;
+      width: 60px; height: 60px;
+      display: grid; place-items: center;
+      flex: 0 0 auto;
+      border-radius: 16px;
+      color: #e2e8ff;
+      background: linear-gradient(160deg, rgba(140, 155, 255, 0.36), rgba(95, 215, 234, 0.20));
+      border: 1px solid rgba(155, 170, 255, 0.48);
+      box-shadow:
+        0 12px 34px -12px rgba(124, 140, 255, 0.85),
+        inset 0 1px 0 rgba(255, 255, 255, 0.18);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(1.6rem, 1.25rem + 2vw, 2.45rem);
+      font-weight: 800;
+      letter-spacing: -0.022em;
+      line-height: 1.12;
+      background: linear-gradient(115deg, #ffffff 0%, #e2e9ff 45%, #a5f0fb 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      filter: drop-shadow(0 4px 22px rgba(124, 140, 255, 0.30));
+    }
+
+    .subtitle {
+      margin: 7px 0 0;
+      color: #c5cee1;
+      font-size: 1rem;
+      line-height: 1.55;
+      max-width: 62ch;
+      text-shadow: 0 1px 14px rgba(0, 0, 0, 0.4);
+    }
+
+    /* ============ CONTROLES (MODO + IDIOMA) ============ */
+    .controls {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .seg-switch {
+      display: inline-flex;
+      padding: 4px;
+      border-radius: 999px;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+    }
+
+    .seg-btn {
+      border: 0;
+      background: transparent;
+      color: var(--muted);
+      font: inherit;
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.055em;
+      padding: 9px 16px;
+      border-radius: 999px;
+      cursor: pointer;
+      transition: color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+      white-space: nowrap;
+    }
+
+    .seg-btn:hover { color: var(--text); }
+
+    .seg-btn.active {
+      color: #0a0e1a;
+      background: linear-gradient(120deg, #b3c0ff, #7fe6f6);
+      box-shadow: 0 6px 18px -8px rgba(124, 140, 255, 0.9);
+    }
+
+    .seg-btn:focus-visible { outline: 2px solid var(--accent-2); outline-offset: 2px; }
+
+    /* El modo Typst activo se distingue con un tono más cyan/púrpura */
+    .mode-switch .seg-btn.active {
+      background: linear-gradient(120deg, #a5b4fc, #5fd7ea);
+    }
+
+    /* ============ TOOLBAR / BUSCADOR ============ */
+    .toolbar {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin: 2px 0 24px;
+    }
+
+    .search {
+      position: relative;
+      flex: 1 1 auto;
+      max-width: 480px;
+      display: flex;
+      align-items: center;
+    }
+
+    .search > svg {
+      position: absolute;
+      left: 14px;
+      color: #8b95ab;
+      pointer-events: none;
+    }
+
+    .search input {
+      width: 100%;
+      padding: 12px 42px 12px 42px;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      background: var(--panel);
+      color: var(--text);
+      font: inherit;
+      font-size: 0.93rem;
+      outline: none;
+      transition: border-color 0.2s ease, box-shadow 0.2s ease;
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+    }
+
+    .search input::placeholder { color: #7d89a1; }
+
+    .search input:focus {
+      border-color: rgba(124, 140, 255, 0.6);
+      box-shadow: 0 0 0 3px rgba(124, 140, 255, 0.18);
+    }
+
+    .search .clear {
+      position: absolute;
+      right: 8px;
+      width: 28px; height: 28px;
+      border: 0;
+      background: transparent;
+      color: var(--muted);
+      cursor: pointer;
+      border-radius: 8px;
+      display: grid; place-items: center;
+      transition: color 0.18s ease, background 0.18s ease;
+    }
+
+    .search .clear:hover { color: var(--text); background: rgba(255, 255, 255, 0.08); }
+    .search .clear:focus-visible { outline: 2px solid var(--accent-2); outline-offset: 2px; }
+    .search .clear[hidden] { display: none; }
+
+    /* ============ GRID — 3 COLUMNAS ============ */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 20px;
+      padding-bottom: 26px;
+    }
+
+    .empty {
+      grid-column: 1 / -1;
+      text-align: center;
+      padding: 64px 20px;
+      color: var(--muted);
+      font-size: 0.97rem;
+    }
+
+    /* ============ CARD ============ */
+    .card {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      padding: 20px 18px 18px;
+      border-radius: var(--radius);
+      background: linear-gradient(170deg, rgba(255, 255, 255, 0.065), rgba(255, 255, 255, 0.018));
+      border: 1px solid var(--border);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06), 0 18px 40px -30px rgba(0, 0, 0, 0.9);
+      overflow: hidden;
+      transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    .card::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(280px 140px at 50% 0%, rgba(124, 140, 255, 0.20), transparent 70%);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      pointer-events: none;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(124, 140, 255, 0.5);
+      box-shadow: 0 26px 52px -26px rgba(80, 100, 255, 0.7);
+    }
+
+    .card:hover::after { opacity: 1; }
+
+    .symbols {
+      display: flex;
+      align-items: baseline;
+      gap: 12px;
+      line-height: 1;
+    }
+
+    .sym-upper {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 1.4rem;
+      color: #a3aec6;
+    }
+
+    .sym-lower {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 2.75rem;
+      font-weight: 500;
+      background: linear-gradient(140deg, #eef2ff, #9aabff 55%, #6fe2f4);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      filter: drop-shadow(0 2px 14px rgba(124, 140, 255, 0.25));
+    }
+
+    .name {
+      margin: 0;
+      font-size: 1.06rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      color: #eef2fa;
+    }
+
+    /* ============ COMANDOS ============ */
+    .commands {
+      display: flex;
+      flex-direction: column;
+      gap: 9px;
+      margin-top: auto;
+    }
+
+    .cmd {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 7px 7px 7px 10px;
+      border-radius: 11px;
+      background: rgba(0, 0, 0, 0.28);
+      border: 1px solid rgba(255, 255, 255, 0.07);
+      transition: border-color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .cmd:hover { border-color: rgba(124, 140, 255, 0.30); }
+
+    /* Feedback claro de "copiado": borde iluminado + fondo verde suave */
+    .cmd.copied {
+      border-color: rgba(74, 222, 128, 0.65);
+      background: rgba(74, 222, 128, 0.10);
+      box-shadow:
+        0 0 0 1px rgba(74, 222, 128, 0.28),
+        0 0 20px -6px rgba(74, 222, 128, 0.75);
+      animation: copyPulse 0.45s ease;
+    }
+
+    @keyframes copyPulse {
+      0%   { transform: scale(1); }
+      40%  { transform: scale(1.015); }
+      100% { transform: scale(1); }
+    }
+
+    .cmd-tag {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 0.9rem;
+      color: #9aa5bd;
+      min-width: 16px;
+      text-align: center;
+      flex: 0 0 auto;
+    }
+
+    .cmd-tag-var {
+      font-family: var(--mono);
+      font-size: 0.66rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: #a3b3ff;
+      min-width: 28px;
+    }
+
+    .cmd code {
+      flex: 1 1 auto;
+      font-family: var(--mono);
+      font-size: 0.83rem;
+      font-weight: 500;
+      letter-spacing: -0.01em;
+      color: #d3dbf0;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .cmd-var {
+      background: rgba(124, 140, 255, 0.07);
+      border-color: rgba(124, 140, 255, 0.14);
+    }
+
+    .copy {
+      flex: 0 0 auto;
+      width: 30px;
+      height: 30px;
+      display: grid;
+      place-items: center;
+      border: 0;
+      border-radius: 9px;
+      background: rgba(124, 140, 255, 0.16);
+      color: #aab8ff;
+      cursor: pointer;
+      transition: background 0.18s ease, color 0.18s ease, transform 0.18s ease;
+    }
+
+    .copy:hover { background: rgba(124, 140, 255, 0.34); color: #ffffff; }
+    .copy:active { transform: scale(0.92); }
+    .copy:focus-visible { outline: 2px solid var(--accent-2); outline-offset: 2px; }
+    .copy.copied { background: rgba(74, 222, 128, 0.22); color: var(--ok); }
+
+    /* ============ NOTA / FOOTER ============ */
+    .note {
+      margin: 10px 0 0;
+      padding: 16px 18px;
+      font-size: 0.9rem;
+      line-height: 1.65;
+      color: #b6c0d4;
+      background: rgba(255, 255, 255, 0.035);
+      border: 1px dashed rgba(255, 255, 255, 0.13);
+      border-left: 3px solid rgba(124, 140, 255, 0.65);
+      border-radius: 12px;
+    }
+
+    .note code {
+      font-family: var(--mono);
+      font-size: 0.86em;
+      color: #d3dbf0;
+      background: rgba(124, 140, 255, 0.10);
+      padding: 1px 6px;
+      border-radius: 5px;
+    }
+
+    .note ul {
+      margin: 8px 0 0;
+      padding-left: 22px;
+    }
+
+    .note li { margin: 3px 0; }
+
+    .site-footer {
+      margin-top: 26px;
+      padding: 30px 0 48px;
+      text-align: center;
+      font-size: 0.86rem;
+      color: #6f7a92;
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+    }
+
+    /* ============ TOAST ============ */
+    .toast {
+      position: fixed;
+      left: 50%;
+      bottom: 26px;
+      transform: translate(-50%, 16px);
+      max-width: min(92vw, 480px);
+      padding: 12px 22px;
+      border-radius: 999px;
+      background: rgba(14, 20, 34, 0.96);
+      border: 1px solid rgba(74, 222, 128, 0.5);
+      color: #eef2fa;
+      font-size: 0.89rem;
+      font-weight: 500;
+      box-shadow: 0 20px 44px -18px rgba(0, 0, 0, 0.9), 0 0 20px -8px rgba(74, 222, 128, 0.5);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.25s ease, transform 0.25s ease;
+      z-index: 100;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .toast.show { opacity: 1; transform: translate(-50%, 0); }
+
+    /* ============ RESPONSIVE ============ */
+    @media (max-width: 960px) {
+      .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+
+    @media (max-width: 640px) {
+      .site-header { padding: 30px 0 22px; }
+      .brand-mark { width: 50px; height: 50px; font-size: 1.75rem; }
+      .grid { gap: 14px; }
+      .card { padding: 16px 14px 14px; gap: 13px; }
+      .sym-lower { font-size: 2.25rem; }
+      .commands { gap: 7px; }
+      .controls { width: 100%; justify-content: flex-start; }
+    }
+
+    @media (max-width: 600px) {
+      .grid { grid-template-columns: 1fr; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        transition-duration: 0.01ms !important;
+        animation-duration: 0.01ms !important;
+      }
+      html { scroll-behavior: auto; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+
+    <!-- ============ HEADER ============ -->
+    <header class="site-header">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">Ω</span>
+        <div>
+          <h1 data-i18n="h1">Greek Alphabet</h1>
+          <p class="subtitle" data-i18n="subtitle">
+            All 24 letters with their symbol, LaTeX / Typst command and name. One click to copy.
+          </p>
+        </div>
+      </div>
+
+      <div class="controls">
+        <!-- Selector global de sintaxis: LaTeX / Typst -->
+        <div class="seg-switch mode-switch" role="group" aria-label="Command syntax / Sintaxis de comandos">
+          <button type="button" class="seg-btn mode-btn active" data-mode="latex" aria-pressed="true">LaTeX</button>
+          <button type="button" class="seg-btn mode-btn" data-mode="typst" aria-pressed="false">Typst</button>
+        </div>
+
+        <!-- Selector de idioma: EN / ES -->
+        <div class="seg-switch lang-switch" role="group" aria-label="Language / Idioma">
+          <button type="button" class="seg-btn lang-btn active" data-lang="en" aria-pressed="true">EN</button>
+          <button type="button" class="seg-btn lang-btn" data-lang="es" aria-pressed="false">ES</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- ============ MAIN ============ -->
+    <main>
+      <div class="toolbar">
+        <div class="search">
+          <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="11" cy="11" r="7"></circle>
+            <path d="m20 20-3.5-3.5"></path>
+          </svg>
+          <input type="search" id="search" autocomplete="off" spellcheck="false" placeholder="Search symbol, name or command…" aria-label="Search" />
+          <button type="button" id="clear" class="clear" hidden aria-label="Clear search">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true">
+              <path d="M18 6 6 18M6 6l12 12"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="grid" id="grid" aria-live="polite"></div>
+
+      <p class="note" id="note"></p>
+
+      <noscript>
+        <div class="note">
+          <p><strong>This page uses JavaScript to display the alphabet with LaTeX and Typst commands.</strong></p>
+          <p>Here are the 24 letters with their commands:</p>
+          <ul>
+            <li>Alpha (Α α) — LaTeX: <code>A</code>, <code>\alpha</code> · Typst: <code>A</code>, <code>alpha</code></li>
+            <li>Beta (Β β) — LaTeX: <code>B</code>, <code>\beta</code> · Typst: <code>B</code>, <code>beta</code></li>
+            <li>Gamma (Γ γ) — LaTeX: <code>\Gamma</code>, <code>\gamma</code> · Typst: <code>Gamma</code>, <code>gamma</code></li>
+            <li>Delta (Δ δ) — LaTeX: <code>\Delta</code>, <code>\delta</code> · Typst: <code>Delta</code>, <code>delta</code></li>
+            <li>Epsilon (Ε ε) — LaTeX: <code>E</code>, <code>\epsilon</code>, <code>\varepsilon</code> · Typst: <code>E</code>, <code>epsilon</code>, <code>epsilon.alt</code></li>
+            <li>Zeta (Ζ ζ) — LaTeX: <code>Z</code>, <code>\zeta</code> · Typst: <code>Z</code>, <code>zeta</code></li>
+            <li>Eta (Η η) — LaTeX: <code>H</code>, <code>\eta</code> · Typst: <code>H</code>, <code>eta</code></li>
+            <li>Theta (Θ θ) — LaTeX: <code>\Theta</code>, <code>\theta</code>, <code>\vartheta</code> · Typst: <code>Theta</code>, <code>theta</code>, <code>theta.alt</code></li>
+            <li>Iota (Ι ι) — LaTeX: <code>I</code>, <code>\iota</code> · Typst: <code>I</code>, <code>iota</code></li>
+            <li>Kappa (Κ κ) — LaTeX: <code>K</code>, <code>\kappa</code> · Typst: <code>K</code>, <code>kappa</code></li>
+            <li>Lambda (Λ λ) — LaTeX: <code>\Lambda</code>, <code>\lambda</code> · Typst: <code>Lambda</code>, <code>lambda</code></li>
+            <li>Mu (Μ μ) — LaTeX: <code>M</code>, <code>\mu</code> · Typst: <code>M</code>, <code>mu</code></li>
+            <li>Nu (Ν ν) — LaTeX: <code>N</code>, <code>\nu</code> · Typst: <code>N</code>, <code>nu</code></li>
+            <li>Xi (Ξ ξ) — LaTeX: <code>\Xi</code>, <code>\xi</code> · Typst: <code>Xi</code>, <code>xi</code></li>
+            <li>Omicron (Ο ο) — LaTeX: <code>O</code>, <code>o</code> · Typst: <code>O</code>, <code>omicron</code></li>
+            <li>Pi (Π π) — LaTeX: <code>\Pi</code>, <code>\pi</code>, <code>\varpi</code> · Typst: <code>Pi</code>, <code>pi</code>, <code>pi.alt</code></li>
+            <li>Rho (Ρ ρ) — LaTeX: <code>P</code>, <code>\rho</code>, <code>\varrho</code> · Typst: <code>P</code>, <code>rho</code>, <code>rho.alt</code></li>
+            <li>Sigma (Σ σ) — LaTeX: <code>\Sigma</code>, <code>\sigma</code>, <code>\varsigma</code> · Typst: <code>Sigma</code>, <code>sigma</code>, <code>sigma.alt</code></li>
+            <li>Tau (Τ τ) — LaTeX: <code>T</code>, <code>\tau</code> · Typst: <code>T</code>, <code>tau</code></li>
+            <li>Upsilon (Υ υ) — LaTeX: <code>\Upsilon</code>, <code>\upsilon</code> · Typst: <code>Upsilon</code>, <code>upsilon</code></li>
+            <li>Phi (Φ φ) — LaTeX: <code>\Phi</code>, <code>\phi</code>, <code>\varphi</code> · Typst: <code>Phi</code>, <code>phi</code>, <code>phi.alt</code></li>
+            <li>Chi (Χ χ) — LaTeX: <code>X</code>, <code>\chi</code> · Typst: <code>X</code>, <code>chi</code></li>
+            <li>Psi (Ψ ψ) — LaTeX: <code>\Psi</code>, <code>\psi</code> · Typst: <code>Psi</code>, <code>psi</code></li>
+            <li>Omega (Ω ω) — LaTeX: <code>\Omega</code>, <code>\omega</code> · Typst: <code>Omega</code>, <code>omega</code></li>
+          </ul>
+        </div>
+      </noscript>
+    </main>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="site-footer">
+      <p data-i18n="footer">Made for students, teachers and LaTeX/Typst lovers.</p>
+    </footer>
+  </div>
+
+  <!-- Toast de feedback -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <!-- ============ JAVASCRIPT ============ -->
+  <script>
+    (function () {
+      "use strict";
+
+      /* ---------------------------------------------------------
+         1. DATOS DEL ALFABETO GRIEGO (LaTeX + Typst)
+      --------------------------------------------------------- */
+      const GREEK = [
+        { up: "Α", lo: "α", en: "Alpha",   es: "Alfa",
+          latex: { up: "A",         lo: "\\alpha",   variants: [] },
+          typst: { up: "A",         lo: "alpha",     variants: [] } },
+
+        { up: "Β", lo: "β", en: "Beta",    es: "Beta",
+          latex: { up: "B",         lo: "\\beta",    variants: [] },
+          typst: { up: "B",         lo: "beta",      variants: [] } },
+
+        { up: "Γ", lo: "γ", en: "Gamma",   es: "Gamma",
+          latex: { up: "\\Gamma",   lo: "\\gamma",   variants: [] },
+          typst: { up: "Gamma",     lo: "gamma",     variants: [] } },
+
+        { up: "Δ", lo: "δ", en: "Delta",   es: "Delta",
+          latex: { up: "\\Delta",   lo: "\\delta",   variants: [] },
+          typst: { up: "Delta",     lo: "delta",     variants: [] } },
+
+        { up: "Ε", lo: "ε", en: "Epsilon", es: "Épsilon",
+          latex: { up: "E",         lo: "\\epsilon", variants: ["\\varepsilon"] },
+          typst: { up: "E",         lo: "epsilon",   variants: ["epsilon.alt"] } },
+
+        { up: "Ζ", lo: "ζ", en: "Zeta",    es: "Dseta",
+          latex: { up: "Z",         lo: "\\zeta",    variants: [] },
+          typst: { up: "Z",         lo: "zeta",      variants: [] } },
+
+        { up: "Η", lo: "η", en: "Eta",     es: "Eta",
+          latex: { up: "H",         lo: "\\eta",     variants: [] },
+          typst: { up: "H",         lo: "eta",       variants: [] } },
+
+        { up: "Θ", lo: "θ", en: "Theta",   es: "Teta",
+          latex: { up: "\\Theta",   lo: "\\theta",   variants: ["\\vartheta"] },
+          typst: { up: "Theta",     lo: "theta",     variants: ["theta.alt"] } },
+
+        { up: "Ι", lo: "ι", en: "Iota",    es: "Iota",
+          latex: { up: "I",         lo: "\\iota",    variants: [] },
+          typst: { up: "I",         lo: "iota",      variants: [] } },
+
+        { up: "Κ", lo: "κ", en: "Kappa",   es: "Kappa",
+          latex: { up: "K",         lo: "\\kappa",   variants: [] },
+          typst: { up: "K",         lo: "kappa",     variants: [] } },
+
+        { up: "Λ", lo: "λ", en: "Lambda",  es: "Lambda",
+          latex: { up: "\\Lambda",  lo: "\\lambda",  variants: [] },
+          typst: { up: "Lambda",    lo: "lambda",    variants: [] } },
+
+        { up: "Μ", lo: "μ", en: "Mu",      es: "Mi",
+          latex: { up: "M",         lo: "\\mu",      variants: [] },
+          typst: { up: "M",         lo: "mu",        variants: [] } },
+
+        { up: "Ν", lo: "ν", en: "Nu",      es: "Ni",
+          latex: { up: "N",         lo: "\\nu",      variants: [] },
+          typst: { up: "N",         lo: "nu",        variants: [] } },
+
+        { up: "Ξ", lo: "ξ", en: "Xi",      es: "Xi",
+          latex: { up: "\\Xi",      lo: "\\xi",      variants: [] },
+          typst: { up: "Xi",        lo: "xi",        variants: [] } },
+
+        { up: "Ο", lo: "ο", en: "Omicron", es: "Ómicron",
+          latex: { up: "O",         lo: "o",         variants: [] },
+          typst: { up: "O",         lo: "omicron",   variants: [] } },
+
+        { up: "Π", lo: "π", en: "Pi",      es: "Pi",
+          latex: { up: "\\Pi",      lo: "\\pi",      variants: ["\\varpi"] },
+          typst: { up: "Pi",        lo: "pi",        variants: ["pi.alt"] } },
+
+        { up: "Ρ", lo: "ρ", en: "Rho",     es: "Ro",
+          latex: { up: "P",         lo: "\\rho",     variants: ["\\varrho"] },
+          typst: { up: "P",         lo: "rho",       variants: ["rho.alt"] } },
+
+        { up: "Σ", lo: "σ", en: "Sigma",   es: "Sigma",
+          latex: { up: "\\Sigma",   lo: "\\sigma",   variants: ["\\varsigma"] },
+          typst: { up: "Sigma",     lo: "sigma",     variants: ["sigma.alt"] } },
+
+        { up: "Τ", lo: "τ", en: "Tau",     es: "Tau",
+          latex: { up: "T",         lo: "\\tau",     variants: [] },
+          typst: { up: "T",         lo: "tau",       variants: [] } },
+
+        { up: "Υ", lo: "υ", en: "Upsilon", es: "Ípsilon",
+          latex: { up: "\\Upsilon", lo: "\\upsilon", variants: [] },
+          typst: { up: "Upsilon",   lo: "upsilon",   variants: [] } },
+
+        { up: "Φ", lo: "φ", en: "Phi",     es: "Fi",
+          latex: { up: "\\Phi",     lo: "\\phi",     variants: ["\\varphi"] },
+          typst: { up: "Phi",       lo: "phi",       variants: ["phi.alt"] } },
+
+        { up: "Χ", lo: "χ", en: "Chi",     es: "Ji",
+          latex: { up: "X",         lo: "\\chi",     variants: [] },
+          typst: { up: "X",         lo: "chi",       variants: [] } },
+
+        { up: "Ψ", lo: "ψ", en: "Psi",     es: "Psi",
+          latex: { up: "\\Psi",     lo: "\\psi",     variants: [] },
+          typst: { up: "Psi",       lo: "psi",       variants: [] } },
+
+        { up: "Ω", lo: "ω", en: "Omega",   es: "Omega",
+          latex: { up: "\\Omega",   lo: "\\omega",   variants: [] },
+          typst: { up: "Omega",     lo: "omega",     variants: [] } }
+      ];
+
+      /* ---------------------------------------------------------
+         2. TEXTOS TRADUCIBLES
+      --------------------------------------------------------- */
+      const I18N = {
+        en: {
+          lang: "en",
+          title: "Greek Alphabet — Symbols, LaTeX & Typst Commands & Names (EN/ES)",
+          metaDesc: "Complete Greek alphabet reference: all 24 letters with their symbol, plus LaTeX and Typst commands and names in English and Spanish. Copy any command with one click.",
+          h1: "Greek Alphabet",
+          subtitle: "All 24 letters with their symbol, LaTeX / Typst command and name. One click to copy.",
+          noteLatex: 'Note: uppercase Greek letters identical to Latin letters (A, B, E, Z, H, I, K, M, N, O, P, T, X) are written as the Latin letter in LaTeX — commands such as <code>\\Alpha</code> do not exist. Variant forms (<code>\\varepsilon</code>, <code>\\vartheta</code>, <code>\\varphi</code>, <code>\\varpi</code>, <code>\\varrho</code>, <code>\\varsigma</code>) are included where they exist.',
+          noteTypst: 'Note: in Typst math mode, Greek letters use bare names without a backslash (<code>alpha</code>, <code>beta</code>, <code>gamma</code>…). Uppercase letters identical to Latin letters (A, B, E, Z, H, I, K, M, N, O, P, T, X) are typed directly as the Latin letter in math mode — e.g., <code>A</code>, <code>B</code>, <code>E</code>. Variants use the <code>.alt</code> suffix: <code>epsilon.alt</code>, <code>theta.alt</code>, <code>phi.alt</code>, <code>pi.alt</code>, <code>rho.alt</code>, <code>sigma.alt</code>.',
+          footer: "Made for students, teachers and LaTeX / Typst lovers.",
+          copied: "Copied",
+          copyLabel: "Copy command",
+          searchPlaceholder: "Search symbol, name, LaTeX or Typst command…",
+          clearLabel: "Clear search",
+          noResults: "No letters match your search."
+        },
+        es: {
+          lang: "es",
+          title: "Alfabeto Griego — Símbolos, Comandos LaTeX y Typst (ES/EN)",
+          metaDesc: "Referencia completa del alfabeto griego: las 24 letras con su símbolo, comando LaTeX y Typst y nombre en inglés y español. Copia cualquier comando con un clic.",
+          h1: "Alfabeto Griego",
+          subtitle: "Las 24 letras con su símbolo, comando LaTeX / Typst y nombre. Un clic para copiar.",
+          noteLatex: 'Nota: las mayúsculas griegas idénticas a letras latinas (A, B, E, Z, H, I, K, M, N, O, P, T, X) se escriben con la letra latina en LaTeX — comandos como <code>\\Alpha</code> no existen. Se incluyen formas variantes (<code>\\varepsilon</code>, <code>\\vartheta</code>, <code>\\varphi</code>, <code>\\varpi</code>, <code>\\varrho</code>, <code>\\varsigma</code>) donde existen.',
+          noteTypst: 'Nota: en Typst, en modo matemático, las letras griegas usan nombres sin barra invertida (<code>alpha</code>, <code>beta</code>, <code>gamma</code>…). Las mayúsculas idénticas a letras latinas (A, B, E, Z, H, I, K, M, N, O, P, T, X) se escriben directamente con la letra latina en modo matemático — por ejemplo, <code>A</code>, <code>B</code>, <code>E</code>. Las variantes usan el sufijo <code>.alt</code>: <code>epsilon.alt</code>, <code>theta.alt</code>, <code>phi.alt</code>, <code>pi.alt</code>, <code>rho.alt</code>, <code>sigma.alt</code>.',
+          footer: "Hecho para estudiantes, profesores y amantes de LaTeX / Typst.",
+          copied: "Copiado",
+          copyLabel: "Copiar comando",
+          searchPlaceholder: "Buscar símbolo, nombre o comando LaTeX / Typst…",
+          clearLabel: "Borrar búsqueda",
+          noResults: "Ninguna letra coincide con tu búsqueda."
+        }
+      };
+
+      /* ---------------------------------------------------------
+         3. ICONOS SVG
+      --------------------------------------------------------- */
+      const COPY_SVG =
+        '<svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" ' +
+        'stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' +
+        '<rect x="9" y="9" width="12" height="12" rx="2.5"/>' +
+        '<path d="M6 15H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v1"/></svg>';
+
+      const CHECK_SVG =
+        '<svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" ' +
+        'stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' +
+        '<path d="M20 6 9 17l-5-5"/></svg>';
+
+      /* ---------------------------------------------------------
+         4. ESTADO + DOM
+      --------------------------------------------------------- */
+      const grid = document.getElementById("grid");
+      const toast = document.getElementById("toast");
+      const noteEl = document.getElementById("note");
+      const searchInput = document.getElementById("search");
+      const clearBtn = document.getElementById("clear");
+
+      let toastTimer = null;
+      let query = "";
+
+      /* -------- Idioma -------- */
+      let lang = "en";
+      try {
+        const saved = localStorage.getItem("lang");
+        if (saved === "en" || saved === "es") {
+          lang = saved;
+        } else if (navigator.language && navigator.language.toLowerCase().indexOf("es") === 0) {
+          lang = "es";
+        }
+      } catch (e) { /* localStorage no disponible */ }
+
+      /* -------- Modo (LaTeX / Typst) --------
+         Prioridad: ?mode= en la URL > localStorage > por defecto "latex" */
+      let mode = "latex";
+      try {
+        const params = new URLSearchParams(location.search);
+        const urlMode = params.get("mode");
+        if (urlMode === "latex" || urlMode === "typst") {
+          mode = urlMode;
+        } else {
+          const savedMode = localStorage.getItem("mode");
+          if (savedMode === "latex" || savedMode === "typst") mode = savedMode;
+        }
+      } catch (e) { /* sin URLSearchParams / localStorage */ }
+
+      /* ---------------------------------------------------------
+         5. UTILIDADES
+      --------------------------------------------------------- */
+      const escapeHtml = (s) =>
+        String(s).replace(/[&<>]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;" }[c]));
+
+      const escapeAttr = (s) =>
+        String(s).replace(/[&<>"']/g, (c) => ({
+          "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+        }[c]));
+
+      function showToast(msg) {
+        toast.textContent = msg;
+        toast.classList.add("show");
+        clearTimeout(toastTimer);
+        toastTimer = setTimeout(() => toast.classList.remove("show"), 1900);
+      }
+
+      function getCmds(g) { return mode === "latex" ? g.latex : g.typst; }
+
+      /* ---------------------------------------------------------
+         6. FILTRO
+      --------------------------------------------------------- */
+      function getFiltered() {
+        const q = query.toLowerCase().trim();
+        if (!q) return GREEK;
+
+        return GREEK.filter(function (g) {
+          if (g.en.toLowerCase().indexOf(q) !== -1) return true;
+          if (g.es.toLowerCase().indexOf(q) !== -1) return true;
+          if (g.up.toLowerCase().indexOf(q) !== -1) return true;
+          if (g.lo.toLowerCase().indexOf(q) !== -1) return true;
+          if (g.latex.up.toLowerCase().indexOf(q) !== -1) return true;
+          if (g.latex.lo.toLowerCase().indexOf(q) !== -1) return true;
+          if (g.typst.up.toLowerCase().indexOf(q) !== -1) return true;
+          if (g.typst.lo.toLowerCase().indexOf(q) !== -1) return true;
+          if ((g.latex.variants || []).some((v) => v.toLowerCase().indexOf(q) !== -1)) return true;
+          if ((g.typst.variants || []).some((v) => v.toLowerCase().indexOf(q) !== -1)) return true;
+          return false;
+        });
+      }
+
+      /* ---------------------------------------------------------
+         7. RENDER
+      --------------------------------------------------------- */
+      function cmdRow(tag, code, label, isVar) {
+        return (
+          '<div class="cmd' + (isVar ? " cmd-var" : "") + '">' +
+            '<span class="cmd-tag' + (isVar ? " cmd-tag-var" : "") + '" aria-hidden="true">' +
+              escapeHtml(tag) +
+            "</span>" +
+            "<code>" + escapeHtml(code) + "</code>" +
+            '<button type="button" class="copy" ' +
+              'data-copy="' + escapeAttr(code) + '" ' +
+              'aria-label="' + escapeAttr(label) + ": " + escapeAttr(code) + '" ' +
+              'title="' + escapeAttr(label) + '">' +
+              COPY_SVG +
+            "</button>" +
+          "</div>"
+        );
+      }
+
+      function renderGrid() {
+        const t = I18N[lang];
+        const items = getFiltered();
+
+        if (items.length === 0) {
+          grid.innerHTML = '<div class="empty" role="status">' + escapeHtml(t.noResults) + "</div>";
+          return;
+        }
+
+        grid.innerHTML = items.map(function (g) {
+          const cmds = getCmds(g);
+          const name = lang === "es" ? g.es : g.en;
+          const variants = (cmds.variants || [])
+            .map(function (code) { return cmdRow("var", code, t.copyLabel, true); })
+            .join("");
+
+          return (
+            '<article class="card">' +
+              '<div class="symbols" aria-hidden="true">' +
+                '<span class="sym-upper">' + g.up + "</span>" +
+                '<span class="sym-lower">' + g.lo + "</span>" +
+              "</div>" +
+              '<h2 class="name">' + escapeHtml(name) + "</h2>" +
+              '<div class="commands">' +
+                cmdRow(g.up, cmds.up, t.copyLabel, false) +
+                cmdRow(g.lo, cmds.lo, t.copyLabel, false) +
+                variants +
+              "</div>" +
+            "</article>"
+          );
+        }).join("");
+      }
+
+      /* ---------------------------------------------------------
+         8. I18N
+      --------------------------------------------------------- */
+      function applyI18n() {
+        const t = I18N[lang];
+
+        document.documentElement.lang = t.lang;
+        document.title = t.title;
+
+        const metaDesc = document.querySelector('meta[name="description"]');
+        if (metaDesc) metaDesc.setAttribute("content", t.metaDesc);
+
+        document.querySelectorAll("[data-i18n]").forEach(function (el) {
+          const key = el.getAttribute("data-i18n");
+          if (t[key]) el.textContent = t[key];
+        });
+
+        // Nota dependiente del modo activo
+        if (noteEl) {
+          noteEl.innerHTML = mode === "latex" ? t.noteLatex : t.noteTypst;
+        }
+
+        // Buscador
+        searchInput.placeholder = t.searchPlaceholder;
+        searchInput.setAttribute("aria-label", t.searchPlaceholder);
+        clearBtn.setAttribute("aria-label", t.clearLabel);
+
+        // Estado activo de los botones de idioma
+        document.querySelectorAll(".lang-btn").forEach(function (btn) {
+          const isActive = btn.getAttribute("data-lang") === lang;
+          btn.classList.toggle("active", isActive);
+          btn.setAttribute("aria-pressed", String(isActive));
+        });
+
+        // Estado activo de los botones de modo
+        document.querySelectorAll(".mode-btn").forEach(function (btn) {
+          const isActive = btn.getAttribute("data-mode") === mode;
+          btn.classList.toggle("active", isActive);
+          btn.setAttribute("aria-pressed", String(isActive));
+        });
+      }
+
+      function setLang(next) {
+        lang = next;
+        try { localStorage.setItem("lang", next); } catch (e) {}
+        applyI18n();
+        renderGrid();
+      }
+
+      function setMode(next) {
+        mode = next;
+        try { localStorage.setItem("mode", next); } catch (e) {}
+        try {
+          const url = new URL(location.href);
+          url.searchParams.set("mode", next);
+          history.replaceState(null, "", url);
+        } catch (e) { /* sin history API */ }
+        applyI18n();
+        renderGrid();
+      }
+
+      /* ---------------------------------------------------------
+         9. COPIAR AL PORTAPAPELES
+      --------------------------------------------------------- */
+      async function copyText(text, btn) {
+        let ok = false;
+
+        try {
+          if (navigator.clipboard && window.isSecureContext) {
+            await navigator.clipboard.writeText(text);
+            ok = true;
+          } else {
+            const ta = document.createElement("textarea");
+            ta.value = text;
+            ta.setAttribute("readonly", "");
+            ta.style.position = "fixed";
+            ta.style.top = "-9999px";
+            ta.style.opacity = "0";
+            document.body.appendChild(ta);
+            ta.select();
+            ta.setSelectionRange(0, text.length);
+            ok = document.execCommand("copy");
+            document.body.removeChild(ta);
+          }
+        } catch (err) {
+          ok = false;
+        }
+
+        if (!ok) {
+          showToast(I18N[lang].copied + " ✕");
+          return;
+        }
+
+        // Feedback: check en el botón + borde iluminado en la fila + toast
+        btn.classList.add("copied");
+        btn.innerHTML = CHECK_SVG;
+
+        const row = btn.closest(".cmd");
+        if (row) row.classList.add("copied");
+
+        setTimeout(function () {
+          btn.classList.remove("copied");
+          btn.innerHTML = COPY_SVG;
+          if (row) row.classList.remove("copied");
+        }, 1400);
+
+        showToast(I18N[lang].copied + ": " + text);
+      }
+
+      /* ---------------------------------------------------------
+         10. EVENTOS
+      --------------------------------------------------------- */
+      grid.addEventListener("click", function (e) {
+        const btn = e.target.closest(".copy");
+        if (!btn) return;
+        copyText(btn.getAttribute("data-copy"), btn);
+      });
+
+      document.querySelectorAll(".lang-btn").forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          setLang(btn.getAttribute("data-lang"));
+        });
+      });
+
+      document.querySelectorAll(".mode-btn").forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          setMode(btn.getAttribute("data-mode"));
+        });
+      });
+
+      searchInput.addEventListener("input", function () {
+        query = searchInput.value;
+        clearBtn.hidden = !query;
+        renderGrid();
+      });
+
+      clearBtn.addEventListener("click", function () {
+        searchInput.value = "";
+        query = "";
+        clearBtn.hidden = true;
+        searchInput.focus();
+        renderGrid();
+      });
+
+      /* ---------------------------------------------------------
+         11. INICIALIZACIÓN
+      --------------------------------------------------------- */
+      applyI18n();
+      renderGrid();
+    })();
+  </script>
+</body>
+</html>
